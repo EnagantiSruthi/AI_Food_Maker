@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Food Maker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .emoji-container {
+            position: absolute;
+            z-index: 10;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Food Maker 🚀</h1>
+        <input type="text" id="food_name" placeholder="Enter a food name...">
+        <button onclick="getFoodDetails()">Get Details</button>
+
+        <div id="loading" style="display:none;">⏳ Fetching details...</div>
+        <div id="result"></div>
+    </div>
+
+    
+    <div class="emoji-container"></div>
+
+    <script>
+        function createEmoji() {
+            const emojiList = ["🍕", "🍔", "🍩", "🍜", "🍎", "🍣", "🍰", "🍹"];
+            const emojiContainer = document.querySelector(".emoji-container");
+            
+            const emoji = document.createElement("div");
+            emoji.className = "emoji";
+            emoji.innerText = emojiList[Math.floor(Math.random() * emojiList.length)];
+            
+            // Random position & animation delay
+            emoji.style.left = Math.random() * 100 + "vw";
+            emoji.style.animationDuration = (Math.random() * 3 + 3) + "s"; // 3-6 sec
+            emoji.style.opacity = Math.random();
+    
+            emojiContainer.appendChild(emoji);
+    
+            setTimeout(() => {
+                emoji.remove(); // Remove emoji after animation
+            }, 5000);
+        }
+    
+        setInterval(createEmoji, 400);
+
+        function getFoodDetails() {
+            let foodName = document.getElementById("food_name").value;
+            let resultDiv = document.getElementById("result");
+    
+            // Show a funny loading message 🤣
+            resultDiv.innerHTML = "<p>🍽️ Fetching yummy details... ⏳🤤</p>";
+    
+            fetch("/get_food_details", {
+                method: "POST",
+                body: new URLSearchParams({ "food_name": foodName }),
+                headers: { "Content-Type": "application/x-www-form-urlencoded" }
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Convert YouTube link to embeddable format
+                let videoId = data.youtube_link.split("v=")[1];
+                let embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    
+                resultDiv.innerHTML = `
+                    <p><strong>🥗 Ingredients:</strong> ${data.ingredients}</p>
+                    <p><strong>📜 Instructions:</strong> ${data.instructions}</p>
+                    <p><strong>📹 Recipe Video:</strong> <a href="${data.youtube_link}" target="_blank">Watch on YouTube</a></p>`;
+            })
+            .catch(error => {
+                resultDiv.innerHTML = "<p>❌ Oops! Couldn't fetch details. 😢 Try again!</p>";
+            });
+        }
+    </script>
+</body>
+</html>
