@@ -1,0 +1,225 @@
+{
+  "tea": {
+    "ingredients": ["Tea leaves", "Water", "Milk", "Sugar"],
+    "instructions": "Boil water, add tea leaves, add milk & sugar, and enjoy your tea!"
+  },
+  "pasta": {
+    "ingredients": ["Pasta", "Tomato Sauce", "Cheese", "Garlic"],
+    "instructions": "Boil pasta, sauté garlic, add tomato sauce, mix, and top with cheese!"
+  },
+  "omelette": {
+    "ingredients": ["Eggs", "Salt", "Pepper", "Butter", "Cheese"],
+    "instructions": "Beat eggs, heat butter in a pan, pour eggs, cook for 2 minutes, add cheese, fold and serve!"
+  },
+  "fried rice": {
+    "ingredients": ["Rice", "Vegetables", "Soy Sauce", "Egg", "Garlic"],
+    "instructions": "Stir-fry garlic, add vegetables, add cooked rice, pour soy sauce, mix well!"
+  },
+  "burger": {
+    "ingredients": ["Bun", "Patty", "Lettuce", "Cheese", "Tomato", "Mayo"],
+    "instructions": "Grill patty, toast bun, assemble with lettuce, tomato, cheese, and mayo!"
+  },
+  "smoothie": {
+    "ingredients": ["Banana", "Milk", "Honey", "Ice"],
+    "instructions": "Blend all ingredients together until smooth, serve chilled!"
+  },
+  "pizza": {
+    "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Toppings of choice"],
+    "instructions": "Spread sauce over dough, add cheese and toppings, bake at 220°C for 15 minutes."
+  },
+  "biryani": {
+    "ingredients": [
+      "Basmati Rice",
+      "Chicken/Mutton",
+      "Yogurt",
+      "Spices",
+      "Onions"
+    ],
+    "instructions": "Cook rice, marinate meat with spices, layer and slow cook until aromatic."
+  },
+  "dal tadka": {
+    "ingredients": ["Lentils", "Tomatoes", "Garlic", "Ghee", "Spices"],
+    "instructions": "Cook lentils, prepare tempering with ghee and spices, mix and serve."
+  },
+  "samosa": {
+    "ingredients": ["Flour", "Potatoes", "Spices", "Peas", "Oil"],
+    "instructions": "Prepare dough, fill with spiced potato mixture, deep fry till golden."
+  },
+  "paneer butter masala": {
+    "ingredients": ["Paneer", "Tomatoes", "Cream", "Butter", "Spices"],
+    "instructions": "Cook tomatoes with spices, blend into a creamy sauce, add paneer and simmer."
+  },
+  "tandoori chicken": {
+    "ingredients": ["Chicken", "Yogurt", "Spices", "Lemon Juice", "Butter"],
+    "instructions": "Marinate chicken with yogurt and spices, grill until charred and cooked."
+  },
+  "idli": {
+    "ingredients": ["Rice", "Urad Dal", "Salt", "Water"],
+    "instructions": "Soak and grind rice and dal, ferment overnight, steam into soft idlis."
+  },
+  "dosa": {
+    "ingredients": ["Rice", "Urad Dal", "Salt", "Water"],
+    "instructions": "Prepare batter like idli, spread thin on a hot pan, cook until crisp."
+  },
+  "chole bhature": {
+    "ingredients": ["Chickpeas", "Flour", "Yogurt", "Spices", "Oil"],
+    "instructions": "Cook chickpeas with spices, knead dough, deep fry bhature, and serve."
+  },
+  "gulab jamun": {
+    "ingredients": ["Milk Powder", "Flour", "Sugar", "Ghee", "Cardamom"],
+    "instructions": "Make dough, shape into balls, deep fry and soak in sugar syrup."
+  },
+  "pav bhaji": {
+    "ingredients": ["Potatoes", "Tomatoes", "Peas", "Butter", "Pav"],
+    "instructions": "Mash vegetables with spices, cook with butter, serve with toasted pav."
+  },
+  "rajma chawal": {
+    "ingredients": ["Kidney Beans", "Rice", "Tomatoes", "Spices", "Garlic"],
+    "instructions": "Cook kidney beans in tomato gravy, serve with steamed rice."
+  },
+  "butter naan": {
+    "ingredients": ["Flour", "Yeast", "Yogurt", "Butter", "Salt"],
+    "instructions": "Knead dough, let rise, roll out, cook on tandoor, brush with butter."
+  },
+  "rasgulla": {
+    "ingredients": ["Milk", "Sugar", "Water", "Cardamom"],
+    "instructions": "Curdle milk, knead into soft balls, boil in sugar syrup until spongy."
+  },
+  "malai kofta": {
+    "ingredients": ["Paneer", "Potatoes", "Cream", "Cashews", "Spices"],
+    "instructions": "Make paneer-potato balls, fry, prepare creamy tomato gravy, mix and serve."
+  },
+  "kachori": {
+    "ingredients": ["Flour", "Lentils", "Spices", "Ghee", "Oil"],
+    "instructions": "Prepare dough, fill with spicy lentil mixture, deep fry until crisp."
+  },
+  "sheer kurma": {
+    "ingredients": ["Milk", "Vermicelli", "Dates", "Nuts", "Sugar"],
+    "instructions": "Boil milk, add vermicelli and nuts, cook until creamy."
+  },
+  "jalebi": {
+    "ingredients": ["Flour", "Yogurt", "Sugar", "Ghee", "Saffron"],
+    "instructions": "Prepare batter, fry in circular shapes, soak in sugar syrup."
+  },
+  "gajar ka halwa": {
+    "ingredients": ["Carrots", "Milk", "Sugar", "Ghee", "Cardamom"],
+    "instructions": "Grate carrots, cook in milk and ghee, add sugar, stir till thick."
+  },
+  "shawarma": {
+    "ingredients": [
+      "Pita Bread",
+      "Chicken",
+      "Garlic Sauce",
+      "Lettuce",
+      "Tomatoes"
+    ],
+    "instructions": "Grill chicken with spices, wrap in pita with garlic sauce and veggies."
+  },
+  "tacos": {
+    "ingredients": ["Tortilla", "Beef/Chicken", "Cheese", "Lettuce", "Salsa"],
+    "instructions": "Cook meat with spices, place in tortilla, top with cheese and veggies."
+  },
+  "pho": {
+    "ingredients": ["Rice Noodles", "Beef/Chicken", "Broth", "Herbs", "Spices"],
+    "instructions": "Simmer broth with spices, cook noodles, add meat and fresh herbs."
+  },
+  "lasagna": {
+    "ingredients": [
+      "Lasagna Sheets",
+      "Tomato Sauce",
+      "Cheese",
+      "Ground Meat",
+      "Garlic"
+    ],
+    "instructions": "Layer pasta, meat sauce, and cheese, bake until golden and bubbly."
+  },
+  "poutine": {
+    "ingredients": ["French Fries", "Cheese Curds", "Gravy"],
+    "instructions": "Cook fries, top with cheese curds, pour hot gravy over and serve."
+  },
+  "falafel": {
+    "ingredients": ["Chickpeas", "Garlic", "Cilantro", "Cumin", "Oil"],
+    "instructions": "Blend ingredients into a paste, shape into balls, deep fry until crispy."
+  },
+  "ramen": {
+    "ingredients": [
+      "Ramen Noodles",
+      "Broth",
+      "Egg",
+      "Green Onions",
+      "Soy Sauce"
+    ],
+    "instructions": "Boil noodles, prepare broth, add toppings, serve hot."
+  },
+  "churros": {
+    "ingredients": ["Flour", "Butter", "Sugar", "Cinnamon", "Oil"],
+    "instructions": "Make dough, pipe into hot oil, fry until golden, coat with sugar."
+  },
+  "ceviche": {
+    "ingredients": ["Fish", "Lime Juice", "Onions", "Cilantro", "Chili"],
+    "instructions": "Marinate raw fish in lime juice, mix with onions, herbs, and chili."
+  },
+  "baklava": {
+    "ingredients": ["Phyllo Dough", "Honey", "Nuts", "Butter", "Cinnamon"],
+    "instructions": "Layer phyllo dough with nuts and honey, bake until golden."
+  },
+  "tiramisu": {
+    "ingredients": [
+      "Ladyfingers",
+      "Mascarpone",
+      "Coffee",
+      "Cocoa Powder",
+      "Sugar"
+    ],
+    "instructions": "Dip ladyfingers in coffee, layer with mascarpone, top with cocoa."
+  },
+  "bubble tea": {
+    "ingredients": ["Tea", "Milk", "Tapioca Pearls", "Sugar"],
+    "instructions": "Brew tea, add milk and sweetener, mix with cooked tapioca pearls."
+  },
+  "pad thai": {
+    "ingredients": [
+      "Rice Noodles",
+      "Shrimp/Chicken",
+      "Egg",
+      "Peanuts",
+      "Tamarind Sauce"
+    ],
+    "instructions": "Stir-fry noodles with sauce, add protein, eggs, and top with peanuts."
+  },
+  "corn dog": {
+    "ingredients": ["Hot Dog", "Cornmeal Batter", "Oil"],
+    "instructions": "Dip hot dog in batter, deep fry until golden brown."
+  },
+  "arepa": {
+    "ingredients": ["Cornmeal", "Water", "Salt", "Cheese"],
+    "instructions": "Mix cornmeal with water, form patties, cook on griddle, stuff with cheese."
+  },
+  "samosa chaat": {
+    "ingredients": [
+      "Samosas",
+      "Yogurt",
+      "Chickpeas",
+      "Tamarind Chutney",
+      "Spices"
+    ],
+    "instructions": "Break samosas, top with yogurt, chutney, chickpeas, and spices."
+  },
+    "coffee": {
+      "ingredients": ["Coffee Beans", "Water", "Milk (optional)", "Sugar (optional)"],
+      "instructions": "Brew coffee beans in hot water, add milk and sugar if desired, and serve hot."
+    },
+    "juice": {
+      "ingredients": ["Fresh Fruits (Orange/Apple/Pineapple/etc.)", "Water", "Sugar (optional)"],
+      "instructions": "Blend fresh fruits with water, strain if needed, add sugar if desired, and serve chilled."
+    },
+    "sushi": {
+      "ingredients": ["Sushi Rice", "Nori (Seaweed)", "Fresh Fish/Vegetables", "Soy Sauce", "Wasabi"],
+      "instructions": "Roll sushi rice and fresh fish/vegetables in seaweed, slice into pieces, and serve with soy sauce and wasabi."
+    },
+    "kimchi": {
+      "ingredients": ["Napa Cabbage", "Salt", "Garlic", "Ginger", "Chili Flakes", "Fish Sauce"],
+      "instructions": "Ferment cabbage with spices and fish sauce, let it sit for a few days, and enjoy as a side dish."
+    }
+}
+
